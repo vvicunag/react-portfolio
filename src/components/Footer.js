@@ -12,18 +12,13 @@ export default function Navbar() {
     return (
 <Nav style={myFooter} className="justify-content-end bg-dark" activeKey="/home">
   <Nav.Item>
-    <Nav.Link href="/home">Active</Nav.Link>
+    <Nav.Link href="https://github.com/vvicunag">My GitHub</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="link-1">Link</Nav.Link>
+    <Nav.Link href="mailto:vvicuna1@uc.cl">Email me</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="link-2">Link</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link eventKey="disabled" disabled>
-      Disabled
-    </Nav.Link>
+    <Nav.Link href="https://www.linkedin.com/in/vvicunag/">Linkedin</Nav.Link>
   </Nav.Item>
 </Nav>
    )
