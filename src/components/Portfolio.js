@@ -21,7 +21,7 @@ export default function Portfolio() {
             <a href=' https://intense-lowlands-65258.herokuapp.com/'>
             <img
             className="d-block w-100"
-            src="images/pac-on-track.jpg"
+            src="https://github.com/vvicunag/react-portfolio/blob/main/public/images/pac-on-track.jpg"
             alt="Pack on track app"
             />
             </a>
