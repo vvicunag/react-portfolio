@@ -7,34 +7,42 @@ const mystyle = {
     marginLeft: "22%",
   };
 
+  const myText = {
+      color: "white"
+  }
+
 
 export default function Portfolio() {
     return (
-    <div>
-    <h1>Hello from Portfolio</h1>
+    <div style={{backgroundColor: "#282c34"}}>
     <div style={mystyle}>
     <Carousel>
         <Carousel.Item>
+            <a href=' https://intense-lowlands-65258.herokuapp.com/'>
             <img
             className="d-block w-100"
-            src="images\placeholder-600x400.png"
-            alt="First slide"
+            src="images/pac-on-track.jpg"
+            alt="Pack on track app"
             />
+            </a>
             <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Pack on Track</h3>
+            <p>Keep your shipping information in one place... keep it simple</p>
+            <p><a style={myText}  href="https://github.com/JenBerlin/Pack-On-Track/pull/21">GitHub</a></p> 
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
+            <a href='https://jitasek.github.io/carbon-down/'>
             <img
             className="d-block centered w-100"
-            src="images\placeholder-600x400.png"
+            src="images\planet2.jpg"
             alt="Second slide"
             />
-
+            </a>
             <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Carbon Down</h3>
+            <p>Measure your carbon dioxide footprint!</p>
+            <p><a style={myText}  href="https://github.com/jitasek/carbon-down">GitHub</a></p> 
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -45,7 +53,7 @@ export default function Portfolio() {
             />
 
             <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Reserved for project 3</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </Carousel.Caption>
         </Carousel.Item>
